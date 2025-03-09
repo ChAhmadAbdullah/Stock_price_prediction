@@ -21,24 +21,8 @@ This project utilizes a Transformer-based deep learning model to predict stock p
 - **Streamlit** (for UI)
 - **Plotly** (for visualization)
 
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-   ```
-
-2. Install the required dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
 ## Usage
 1. Run the Streamlit app:
-   ```sh
-   streamlit run app.py
-   ```
-
 2. Select a stock from the dropdown list.
 3. Click the **Train and Predict** button to train the model and generate predictions.
 4. View the predicted prices and interactive visualization.
@@ -49,19 +33,4 @@ The Transformer model consists of:
 - Multiple Transformer encoder layers for feature extraction
 - A fully connected layer to generate final predictions
 
-## Data Processing
-The following technical indicators are calculated:
-- **SMA (50-day), EMA (50-day)**
-- **Daily Returns and Log Returns**
-- **Relative Strength Index (RSI-14)**
-- **Bollinger Bands**
-- **Momentum and Volatility**
-
-## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## Acknowledgments
-- Yahoo Finance for stock data
-- Streamlit for an easy-to-use web interface
-- PyTorch for deep learning implementation
 
